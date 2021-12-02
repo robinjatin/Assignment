@@ -1,0 +1,25 @@
+<form [formGroup]="loginForm" class="form-container">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Login Information</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+          <div class="col-md-6">
+            <mat-form-field class="full-width">
+              <input formControlName="email" matInput required placeholder="Email">
+            </mat-form-field>
+          </div>
+          <div class="col-md-6">
+            <mat-form-field class="full-width">
+              <input type="password"  formControlName="password" matInput required placeholder="Password">
+            </mat-form-field>
+          </div>
+        </div>
+        <a mat-button color="primary" (click)="signup()">Not a member?</a>
+      </mat-card-content>
+      <mat-card-actions>
+        <button (click)="saveForm()" mat-raised-button color="primary">Login</button>
+      </mat-card-actions>
+    </mat-card>
+  </form>

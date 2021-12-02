@@ -1,0 +1,15 @@
+Before creating the projects, we need to check if we have npm and angular cli using npm --version 
+and ng --version in the terminal.
+We can download npm using: npm install -g npm
+We can download angular cli using: npm install -g @angular/cli
+
+Creation of the project:
+First Step: Creating the angular project using, ng add "project_name".
+ - we need to add css and routing modules by typing yes while creation.
+Second Step: Creating the login, signup and dashboard components using the command: ng g c "component_name".
+Third Step: Adding routing in the app-routing.module.ts.
+Fourth Step: Adding angular material using the command:ng add @angular/material.
+Fifth Step: Creating the Forms in Signup and Login Component using FormBuilder.
+Sixth Step: Adding the Welcome "user" text in the dashboard.
+Seventh Step: Connecting all the components with each other.
+Eighth Step: Adding the functionality to avoid going backwards illegaly from a particular component.
