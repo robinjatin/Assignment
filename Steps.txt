@@ -12,4 +12,7 @@ Fourth Step: Adding angular material using the command:ng add @angular/material.
 Fifth Step: Creating the Forms in Signup and Login Component using FormBuilder.
 Sixth Step: Adding the Welcome "user" text in the dashboard.
 Seventh Step: Connecting all the components with each other.
-Eighth Step: Adding the functionality to avoid going backwards illegaly from a particular component.
+Eighth Step: Adding the functionality to avoid going backwards illegaly from a particular component.\
+
+To run:
+Type the command: npm i and then ng serve
